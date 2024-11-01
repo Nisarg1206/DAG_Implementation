@@ -6,5 +6,5 @@ Javascript, Tailwind CSS, Reactjs, HTML, Python, and Python Library like FastAPI
 
 # Setup
 Download or Clone the repository
-For Frontend, navigate to the frontend folder and npm i
-For Backend, navigate to the backend folder and run python -m uvicorn main:app -reload
+1) Run npm i
+2) For server, navigate to server folder and run python -m uvicorn main:app -reload
