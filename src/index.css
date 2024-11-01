@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pipeline-background {
+  width: 100vw;
+  height: 78vh;
+  background: radial-gradient(circle at 20% 50%, rgba(37, 17, 91, 1) 2%, rgba(37,25,52,1) 50%, rgba(37,10,28,1) 100%);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
+}
+
+.custom-radial-gradient {
+  background: radial-gradient(circle at 20% 50%, rgba(37, 17, 91, 1) 25%, rgba(37,25,52,1) 100%);
+}
+
+.custom-controls {
+  color: #321d6c;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: .75rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.875rem;
+  padding: 0.5rem;
+}
+
+.custom-minimap {
+  border: 3px solid white;
+  border-radius: 0.75rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0); 
+}
